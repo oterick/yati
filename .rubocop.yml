@@ -1,2 +1,6 @@
+AllCops:
+  TargetRubyVersion: 2.5.5
+  Exclude:
+    - "lib/generators/**/*"
 Metrics/LineLength:
   Max: 100
